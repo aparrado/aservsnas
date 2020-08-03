@@ -1,0 +1,35 @@
+---
+documentclass: article
+output: 
+ 
+  bookdown::pdf_document2:
+    toc: false
+    number_sections: true
+    
+    latex_engine: xelatex
+    keep_tex:  true
+    fig_width: 5
+    fig_height: 3
+    fig_caption: true
+#mainfont: Palatino
+header-includes:
+  - \setlength{\parskip}{1em}
+bibliography: [master.bib]
+biblio-style: apalike
+tables: yes
+title: "Assessing the Assessments: Taking Stock of Learning Outcomes Data in India"  
+abstract: "Data on learning outcomes is essential for tracking progress in achieving education goals, understanding what education policies work (and don’t work), and holding public officials accountable. We assess the accuracy and reliability of India’s two nationally representative surveys on learning outcomes, ASER and NAS. After restricting our sample to maximize comparability between the two tests, we find that NAS state averages are significantly higher than ASER states averages and averages from an independently conducted nationally representative survey (IHDS). In addition, state rankings based on NAS data display almost no correlation with state rankings based on ASER, IHDS, or net state domestic product per capita. We conclude that NAS state averages are likely artificially high and contain little information about states’ relative performance. We then analyse the internal reliability of ASER data using variance decomposition methods. We find that while ASER data is mostly reliable for comparing state averages, it is less reliable for looking at changes in in state averages, district averages, or changes in district averages."
+
+author:
+- Doug Johnson^[Independent Consultant] 
+- Andres Parrado^[Data Associate, GiveDirectly] 
+
+keywords: "NAS, ASER, Education, Testing"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+thanks: "**Preliminary draft. Please do no cite or circulate without permission.** We thank Wilima Wadhwa, Ketan Verma, Ron Abraham, and Abhijeet Singh for helpful comments on earlier drafts. Most data used in this analysis can be found at https://github.com/dougj892/public-datasets. Code used to compare ASER, NAS, and IHDS can be found at https://rpubs.com/dougj892/629861. Code used to create the graph showing effect of voluntary student absence on NAS scores can be found at https://rpubs.com/dougj892/629863. Code used to analysis internal reliability of ASER data can be found at https://rpubs.com/dougj892/630263 and https://rpubs.com/dougj892/630248. All errors are our own."
+geometry: "left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm"
+fontsize: 11pt
+linestretch: 1.2
+link-citations: yes
+linkcolor: blue
+---
