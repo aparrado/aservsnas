@@ -11,9 +11,12 @@ Second, we focus on grade 3 students. While ASER assesses older students, compar
 
 Third, we restrict the NAS and IHDS samples to students from rural areas as ASER is only administered in rural areas. Finally, we restrict the three samples to ensure similarity in the types of schools covered. NAS is only administered in government and private aided schools. Unfortunately, we are not able to distinguish between students attending private and private aided schools in the ASER dataset so we restrict the sample to students attending government schools. We include both government and private aided schools in the IHDS sample.
 
+Finally, we use data from the most recent ASER (conducted in 2018), which helps ensure comparability between NAS and ASER. We acknowledge that there is a substantial time difference between IHDS, conducted in 2011/12, and the other two datasets. However, given that we seek to compare the correlation between ASER and IHDS to the correlation between NAS and IHDS, this time difference does not pose a problem.
+
 ```{r restrictedsample, fig.align="center", echo=FALSE, fig.cap="Summary of Restricted Samples Used for Comparison", out.width = '80%'}
 knitr::include_graphics("summary_learning_outcomes.png")
 ```
+
 
 While these restrictions help ensure that the final analytical samples are as comparable as possible, they do not guarantee that the assessment tools are measuring the same latent trait or that the final samples are representative of the same population.
 
